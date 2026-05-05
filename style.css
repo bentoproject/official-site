@@ -163,3 +163,16 @@ body.has-glow{
   background: rgba(224,163,122,0.10);
   animation: flicker 0.95s infinite;
 }
+
+/* VR連結效果（不控制顏色，交給HTML） */
+.vr-link{
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 2.6s;
+  transition: 0.3s;
+}
+
+.vr-link:hover{
+  opacity: 1;
+  text-shadow: 0 0 12px rgba(255,180,120,0.6);
+}
